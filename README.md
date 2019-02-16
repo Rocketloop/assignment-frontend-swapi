@@ -29,7 +29,7 @@ Feel free to come up with your own design for this view!
 ## Further Details
 
 ### Project Setup
-Please use the Angular CLI to set up the application. We should be able to start the application using the `npm start` command.
+Please use the Angular CLI to set up the application. We should be able to start the application using the `npm start` command. The app should use the latest version of Angular (7.2 at the time of writing).
 
 ### SWAPI
 The [Star Wars API](https://swapi.co/) should be used to complete this assignment. The most important endpoint will be the `/people` endpoint to query the characters to display in the character list (see https://swapi.co/documentation#people). As the SWAPI does not support filtering the data, it will be necessary to fetch all data and filter on the client side. Make sure not to send unneccessary API requests.
