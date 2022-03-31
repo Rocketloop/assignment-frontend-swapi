@@ -1,5 +1,5 @@
 # Coding Assignment
-In this assignment, you will be building a small Angular application that displays a filterable list of characters from the movie franchise Star Wars. You will be querying data from an open API called [SWAPI (Star Wars API)](https://swapi.dev/) that should give you access to all data that is needed to complete the assignment. If you are not familiar with Star Wars, don't worry, prior knowledge of the movies is not required to complete the assignment. 
+In this assignment, you will be building a small front-end application that displays a filterable list of characters from the movie franchise Star Wars. You will be querying data from an open API called [SWAPI (Star Wars API)](https://swapi.dev/) that should give you access to all data that is needed to complete the assignment. If you are not familiar with Star Wars, don't worry, prior knowledge of the movies is not required to complete the assignment. 
 
 ## App Overview
 The app will consist of a main view that will display the list of characters and a filter section, where the user can filter the characters by certain criteria. Clicking on one of the characters from the list will open a detail view of this character. When the user changes the filter settings in the filter section, the list of characters should instantly adapt to only show characters that match the chosen filter settings.
@@ -29,16 +29,13 @@ Feel free to come up with your own design for this view!
 ## Further Details
 
 ### Project Setup
-Please use the Angular CLI to set up the application. We should be able to start the application using the `npm start` command. The app should use the latest version of Angular (11 at the time of writing).
+We should be able to start the application using the `npm start` command. The app should use the latest major version of your front-end framework of choice.
 
 ### SWAPI
 The [Star Wars API](https://swapi.dev/) should be used to complete this assignment. The most important endpoint will be the `/people` endpoint to query the characters to display in the character list (see https://swapi.dev/documentation#people). As the SWAPI does not support filtering the data, it will be necessary to fetch all data and filter on the client side. Make sure not to send unneccessary API requests.
 
 ### Character Details
-The character details view should make use of the Angular Router, i.e. each character should be directly reachable through a unique URL, such as `/characters/5` for the character with the ID 5.
-
-### Reactive Patterns
-It is highly reccomended to make use of reactive patterns (Observables, including observable operators) to complete this assignment. Additionally, you should use [*reactive forms*](https://angular.io/guide/reactive-forms) for the filter settings.
+The character details view should make use of the a URL based router, i.e. each character should be directly reachable through a unique URL, such as `/characters/5` for the character with the ID 5.
 
 ### External Libraries
-You are allowed to use any external library to complete this assignment. You are also allowed to use UI libraries like Bootstrap or Angular Material. Just make sure that the final app looks decent and consistent.
+You are allowed to use any external library to complete this assignment. You are also allowed to use UI libraries. Just make sure that the final app looks appealing, consistent, and has a good user experience.
